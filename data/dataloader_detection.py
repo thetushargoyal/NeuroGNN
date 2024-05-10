@@ -4,7 +4,7 @@ import inspect
 
 currentdir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
 parentdir = os.path.dirname(currentdir)
-sys.path.append(parentdir) 
+# sys.path.append(parentdir) 
 import pyedflib
 import utils
 from data.data_utils import *
@@ -26,7 +26,7 @@ from sklearn.model_selection import StratifiedShuffleSplit
 
 repo_paths = str(Path.cwd()).split('NeuroGNN')
 repo_paths = Path(repo_paths[0]).joinpath('NeuroGNN')
-sys.path.append(repo_paths)
+# sys.path.append(repo_paths)
 FILEMARKER_DIR = Path(repo_paths).joinpath('data/file_markers_detection')
 
 

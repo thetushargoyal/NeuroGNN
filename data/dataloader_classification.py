@@ -1,5 +1,5 @@
 import sys
-sys.path.append('../')
+# sys.path.append('../')
 from pathlib import Path
 import scipy.signal
 import scipy

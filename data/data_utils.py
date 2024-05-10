@@ -3,7 +3,7 @@ import random
 import os
 import sys
 
-sys.path.append("../")
+# sys.path.append("../")
 import pyedflib
 from constants import INCLUDED_CHANNELS, FREQUENCY, ALL_LABEL_DICT
 from scipy.fftpack import fft
