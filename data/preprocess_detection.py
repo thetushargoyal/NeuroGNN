@@ -6,7 +6,7 @@ import h5py
 from tqdm import tqdm
 from dataloader_detection import computeSliceMatrix
 
-FILE_MARKER_DIR = "./file_markers_detection"
+FILE_MARKER_DIR = "/kaggle/working/NeuroGNN/data/file_markers_detection"
 
 
 def main(
